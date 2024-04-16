@@ -1,5 +1,9 @@
 public class Teacher extends Persona{
 private String teacher_id="";
+private String subjects="";
+private String classrooms="";
+private String methods="";
+
 // aditional atributes for admin
 // admin id
 // department

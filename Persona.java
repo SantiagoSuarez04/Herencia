@@ -3,6 +3,7 @@ public class Persona {
     protected String last_name="";
     protected String document="";
     protected String gender= "";
+    
 
 
 public Persona(String user_name, String last_name, String document, String gender){
@@ -36,7 +37,14 @@ public Persona(String user_name, String last_name, String document, String gende
     public void setGender(String gender){
         this.gender=gender;
     }
-
-    public String toString()
+    public String toString() {
+        return "Persona{" +
+                "user_name='" + user_name + '\'' +
+                ", last_name='" + last_name + '\'' +
+                ", document='" + document + '\'' +
+                ", gender='" + gender + '\'' +
+                '}';
+    }
+    
 }
 

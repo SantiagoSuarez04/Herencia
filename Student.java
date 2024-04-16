@@ -6,8 +6,9 @@ public class Student extends Persona{
         this.student_id=student_id;
     }
 
-@Override
-    public String toString(){
-        return super.
-    }
+//@Override
+   // public String toString(){
+     //   return super.toString();
+       
+  //  }
 }
